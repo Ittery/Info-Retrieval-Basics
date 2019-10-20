@@ -1,4 +1,4 @@
-# The-IR-Project
+# Information Retrieval Knowledge Base
  An Information Retrieval Library mainly for learning the concepts of IR and develop tools in this domain for specific purposes.
 
 ### How to start contributing ?
