@@ -8,11 +8,11 @@
 * Make a folder in your local directory. Access this folder via terminal. Type the following command.
 ``` 
 git init
-git remote add origin https://github.com/"Your Account"/The-IR-Project/
+git remote add origin https://github.com/"Your Account"/Information-Retrieval-Knowledge-Base
 ```
 * Clone from this repository
 ```
-git clone https://github.com/"Your Account"/The-IR-Project/
+git clone https://github.com/"Your Account"/Information-Retrieval-Knowledge-Base
 ```
 * Start adding files via
 ```
