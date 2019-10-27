@@ -27,7 +27,7 @@ def idf(term, allDocs):
   
     """ 
     Input: term: Term in the Document, 
-           allDocs: List of all documents 
+           allDocs: Dictionary of all documents 
     Return: Inverse Document Frequency (idf) for term 
             = Logarithm ((Total Number of Documents) /  
             (Number of documents containing the term)) 
@@ -89,7 +89,7 @@ def norm_file(content) :
     for i in range(len(c)):
         c[i]=c[i].lower()
     newst=" ".join(c)
-    return c,newst
+    return list(set(c)),newst
 
 tf_idf={}
 files = glob.glob("Data/*.txt")
@@ -97,7 +97,7 @@ print("The files from which data is being read are :", files)
 alldocs={}
 newst=''
 
-#To festch normalized text form of all the files being read in a single list.
+#To fetch normalized text form of all the files being read in a single list.
 for f in files:
     content = open(f).read()
     terms, newst=norm_file(content)
@@ -105,12 +105,11 @@ for f in files:
 
 for f in files:
     content = open(f).read()
-    print("\n"+f+" contains : "+content + "\n")
-    terms, newst=norm_file(content)
-    
+    print("\n"+f+" contains : \n"+content + "\n")
     tf_idf.update({f : {}})
     for term in terms :
         tf_idf[f].update({term : round(tf(term, newst) * idf(term, alldocs) , 9)})
+
 
 print ("The tf-idf of the terms in the documents are :\n")
 for doc in tf_idf:
