@@ -1,4 +1,4 @@
-# Information Retrieval Knowledge Base
+# Information Retrieval Basics
  An Information Retrieval Knowledge Base mainly for learning the concepts of IR and develop tools in this domain for specific purposes.
 
 ### How to start contributing ?
@@ -9,15 +9,16 @@
 * Hit the ```Issues``` tab to check what? to contribute if you have no idea.
 ``` 
 git init
-git remote add origin https://github.com/"Your Account"/Information-Retrieval-Knowledge-Base
+git remote add origin https://github.com/"Your Account"/Info-Retrival-Basics
 ```
 * Clone from this repository
 ```
-git clone https://github.com/"Your Account"/Information-Retrieval-Knowledge-Base
+git clone https://github.com/"Your Account"/Info-Retrival-Basics
 ```
 * Start adding files via
 ```
 git add .
 git commit -m ""
-git push origin master
+git push origin branch 
+*branch is master by default
 ```
