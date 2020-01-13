@@ -9,11 +9,11 @@
 * Hit the ```Issues``` tab to check what? to contribute if you have no idea.
 ``` 
 git init
-git remote add origin https://github.com/"Your Account"/Info-Retrival-Basics
+git remote add origin https://github.com/"Your Account"/Info-Retrieval-Basics
 ```
 * Clone from this repository
 ```
-git clone https://github.com/"Your Account"/Info-Retrival-Basics
+git clone https://github.com/"Your Account"/Info-Retrieval-Basics
 ```
 * Start adding files via
 ```
