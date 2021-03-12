@@ -1,4 +1,4 @@
-# Information Retrieval Basics
+# Information Retrieval Fundamentals
  An Information Retrieval Knowledge Base mainly for learning the concepts of IR and develop tools in this domain for specific purposes.
 
 ### How to start contributing ?
